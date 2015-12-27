@@ -1,0 +1,12 @@
+## Ignore PyCharm temporary files, build results, and data files
+
+# PyCharm
+/.idea/
+/__pycache__/
+
+# Data
+/data/
+# "data/" matches all directory who's name is "data", but "/data/" matches the exact directory who's name is "data" only in the root directory
+*.npy
+*.txt
+*.mat
